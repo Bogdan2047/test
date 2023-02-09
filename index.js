@@ -173,15 +173,6 @@ function empty () {
 function hideList () { 
     empty()      
 }
-
-// function addBlock () {
-//     addCom.innerHTML = `
-//     <div id='before' class='first' id="${getId}">
-//         <textarea class='comm' placeholder='writing your comment'></textarea>
-//         <button class='send'>add comment</button>
-//     </div>
-//   `
-// }
   
 function openList (event) {
 
