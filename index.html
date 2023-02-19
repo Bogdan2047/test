@@ -9,34 +9,20 @@
     <title>Document</title>
 </head>
 <body class="body">
-    <div class="createPost">
-        <div class="blog">
-            <h1>Blog</h1>
-        </div>
-        <div class="title">
-            <span>Title</span>
-            <span class="one"></span>
-            <input type="text" class="input" placeholder="Entry name blog"/>
-        </div>
-        <div class="content">
-            <span>Content</span>
-            <span class="two"></span>
-            <textarea class="textarea" placeholder="Storieng about our blog"></textarea>
-        </div>
-        <div class="button">
-            <button id="but1" class="btn btn-primary">Create post</button>
-        </div>
-        <div id="posts">
-           
-        </div>
-        <div id="add" class="block">
-
-        </div>
-        <div id='coment' class="block">
-
-        </div>
+    <div class="addPostForm">
+        <h1>App post</h1>
+        <label for="postTitle">Title</label>
+            <input type="text" class="form-control" id="postTitle"/>
+        <label for="postDesc">Text</label>
+            <input type="text" class="form-control" id="postDesc"/>
+        <button type="submit" class="btn btn-success">add post</button>
     </div>
-
-    <script src="index.js"></script>
+<div class="post">
+    <h1>Posts</h1>
+    <div class="postsContainer" id="postsLists">
+         <div class="commentsContainer" id="commentsLists"></div>
+    </div>
+</div>
+  <script src="index.js"></script>
 </body>
 </html>

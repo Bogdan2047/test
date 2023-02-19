@@ -1,147 +1,65 @@
 .body{
+    width: 50%;
     margin: 0 auto;
-    padding: 0 auto;
-    background-color: rgb(24, 24, 24);
-}
-
-.blog{
-    margin: 0 auto;
-}
-
-.createPost {
-    display: flex;
-    flex-direction: column;
-    margin: 0 auto;
-    padding: 0 auto;
-    width: 40%;
     background-color: rgb(24, 24, 24);
     color: white;
-} 
+}
 
-.title {
+.addPostForm{
     display: flex;
     flex-direction: column;
+}
+
+.addPostForm label{
     padding-top: 20px;
-    padding-bottom: 20px;
-
 }
 
-.content{
-    display: flex;
-    flex-direction: column;
-    padding-bottom: 10px;
-}
-
-.input{
+.addPostForm input{
     background-color: rgb(24, 24, 24);
     color: white;
-    border-radius: 5px;
 }
 
-.textarea {
-    height: 100px;
-    background-color: rgb(24, 24, 24);
-    color: white;
-    border-radius: 5px;
+.addPostForm button {
+    margin: 20px 0;
+    width: 20%;
 }
 
-.btn {
-    margin-bottom: 40px;
+.post-block{
+    margin-top: 20px;
 }
 
-.one {
-    margin: 0 auto;
-    padding-bottom: 5px;
-    color: red;
-}
-
-.two {
-    margin: 0 auto;
-    padding-bottom: 5px;
-    color: red;
-}
-
-.post{
-    min-height: 100px;
+.post-body {
     padding: 20px 40px;
-    border: black 1px solid;
-    margin: 10px;
-    box-shadow: 1px 1px 10px black;
-    border-radius: 5px;
+    border: gray 1px solid;
     background-color: rgb(27, 27, 27);
-
 }
 
-.name {
+.com-block{
+    width: 95%;
     margin: 0 auto;
-    padding-bottom: 20px;
+    padding: 10px 20px;
+    border: grey 1px groove;
+    background-color: rgb(27, 27, 27);
 }
 
-.p {
-    margin-bottom: 50px;
-}
-
-.but2{
-    width: 55px;
-    height: 30px;
-    border-radius: 15px;
-    border: none;
-    background-color: red;
-    color: white;
-}
-
-.first{
-    padding: 20px 40px;
+.add-com{
     border: black 1px solid;
-    display: flex;
-    justify-content: space-between;
-    background-color: rgb(34, 34, 34);
-}
-
-.comm{
-    margin-left: 10px;
-    background-color: rgb(34, 34, 34);
-    margin-top: 10px;
-    color: white;
-    border-radius: 5px;
-} 
-
-.comments{
-    border-radius: 5px;
-    border: none;
-    color: white;
-    background-color: green;
-}
-
-.send{
-    width: 100px;
-    height: 55px;
-    border: none;
-    color: white;
-    background-color: blue;
-    border-radius: 5px;
-} 
-
-.this{
-    padding: 20px 40px;
-    border: black 1px solid;
+    padding: 10px 20px;
     min-height: 100px;
-    border-radius: 5px;
-    background-color: rgb(34, 34, 34);
 }
 
-.hide{
-    border-radius: 5px;
-    border: none;
+.textarea{
+    width: 600px;
+    min-height: 50px;
+    padding: 10px 20px;
+    background-color: rgb(27, 27, 27);
     color: white;
-    background-color: red; 
 }
 
-.action{
-    display: flex;
-    justify-content: space-between;
-}
-
-.ooo{
-    margin-top: 100px;
+.add-com button{
+   margin-left: 20px;
+   background-color: rgb(1, 109, 209);
+   border-radius: 5px;
+   color: white;
+   border: none;
 }
